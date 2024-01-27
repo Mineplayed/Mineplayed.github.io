@@ -1,0 +1,135 @@
+:root {
+    font-family: 'Poppins', sans-serif;
+}
+
+body    {
+    height: 100%;
+    width: 100%;
+
+    margin: 0;
+
+    background: hsla(253, 82%, 81%, 1);
+    background: linear-gradient(225deg, hsla(253, 82%, 81%, 1) 0%, hsla(285, 56%, 68%, 1) 50%, hsla(327, 95%, 77%, 1) 100%);
+    background: -moz-linear-gradient(225deg, hsla(253, 82%, 81%, 1) 0%, hsla(285, 56%, 68%, 1) 50%, hsla(327, 95%, 77%, 1) 100%);
+    background: -webkit-linear-gradient(225deg, hsla(253, 82%, 81%, 1) 0%, hsla(285, 56%, 68%, 1) 50%, hsla(327, 95%, 77%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#B7A6F6", endColorstr="#C37EDB", GradientType=1 );
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    width: 50%;
+    height: 80%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 10%;
+    width: 100%;
+
+    background-color: #B24C6D;
+
+    color: white;
+    text-align: center;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100%;
+}
+
+img{
+    width: 400px;
+    height: 100%;
+    border-radius: 10px;
+
+    background-size: contain;
+}
+
+.inner_cont {
+    height: 80%;
+    width: 100%;
+    margin-bottom: 30px;
+
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 300px;
+    height: 25px;
+
+    background-color: #aa5771;
+    color: rgb(221, 183, 183);
+    border: none;
+    border-radius: 3px;
+}
+
+button:hover {
+    width: 350px;
+    height: 30px;
+    box-shadow: 10px 5px 5px #6d263d;
+}
+
+button:active {
+    background-color: rgb(146, 67, 92);
+}
+
+.button {
+    height: 10%;
+    width: 30%;
+
+    background-color: #aa5771;
+    color: rgb(221, 183, 183);
+    border: none;
+    border-radius: 3px;
+
+    text-align: center;
+}
+
+.button:hover {
+    width: 350px;
+    height: 30px;
+    box-shadow: 10px 5px 5px #6d263d;
+}
+
+#pass {
+    background-color: #ffffff00;
+    border-color: rgba(240, 248, 255, 0);
+    color: white;
+}
+
+.secret_btn {
+    width: 100%;
+    
+    background-color: #ffffff00;
+    border-color: rgba(240, 248, 255, 0);
+}
+
+.secret_btn:hover {
+    width: 100%;
+    height: auto;
+    box-shadow: none;
+}
+
+p {
+    font-size: 7pt;
+}
