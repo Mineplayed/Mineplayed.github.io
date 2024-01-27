@@ -20,6 +20,10 @@ a {
     color: white;
 }
 
+.material-symbols-outlined {
+    color: white;
+}
+
 .grid {
     display: flex;
     flex-direction: column;
@@ -27,6 +31,13 @@ a {
     
     height: 100%;
     width: 100%;
+}
+
+.sound {
+    background-color: #ffffff00;
+    border-color: #ffffff00;
+
+    width: 50px;
 }
 
 .container {
@@ -39,7 +50,7 @@ a {
 }
 
 .header {
-    height: 10%;
+    height: auto;
     width: 100%;
 
     background-color: #B24C6D;
